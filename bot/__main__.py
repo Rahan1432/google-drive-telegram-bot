@@ -25,8 +25,8 @@ if __name__ == "__main__":
     app = Client(
         "G-DriveBot",
         bot_token=BOT_TOKEN,
-        api_id=APP_ID,
-        api_hash=API_HASH,
+        api_id= "6733015",
+        api_hash= "9b578d686a3909fa3d9bf559fef76124",
         plugins=plugins,
         parse_mode="markdown",
         workdir=DOWNLOAD_DIRECTORY
